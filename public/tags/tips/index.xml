@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tips on Richard Fang Blog</title>
+    <link>https://richard-mf.github.io/aispace.github.io/tags/tips/</link>
+    <description>Recent content in Tips on Richard Fang Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Mar 2025 18:00:00 +0000</lastBuildDate>
+    <atom:link href="https://richard-mf.github.io/aispace.github.io/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何配置docker使用HTTP代理</title>
+      <link>https://richard-mf.github.io/aispace.github.io/2018/03/13/use-docker-behind-http-proxy/</link>
+      <pubDate>Thu, 13 Mar 2025 18:00:00 +0000</pubDate>
+      <guid>https://richard-mf.github.io/aispace.github.io/2018/03/13/use-docker-behind-http-proxy/</guid>
+      <description>&lt;h2 id=&#34;ubuntu&#34;&gt;Ubuntu&lt;/h2&gt;&#xA;&lt;h3 id=&#34;设置docker使用http-proxy&#34;&gt;设置docker使用http proxy&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo /etc/default/docker&#xA;&#xA;export http_proxy=&amp;#34;http://127.0.0.1:3128/&amp;#34;&#xA;export https_proxy=&amp;#34;http://127.0.0.1:3128/&amp;#34;&#xA;export HTTP_PROXY=&amp;#34;http://127.0.0.1:3128/&amp;#34;&#xA;export HTTPS_PROXY=&amp;#34;http://127.0.0.1:3128/&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Vim Tips</title>
+      <link>https://richard-mf.github.io/aispace.github.io/2018/02/09/vim-tips/</link>
+      <pubDate>Sun, 09 Feb 2025 11:00:00 +0000</pubDate>
+      <guid>https://richard-mf.github.io/aispace.github.io/2018/02/09/vim-tips/</guid>
+      <description>&lt;h2 id=&#34;vim-graphical-cheat-sheet&#34;&gt;vim graphical cheat sheet&lt;/h2&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;//img/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何使用非root用户执行docker命令</title>
+      <link>https://richard-mf.github.io/aispace.github.io/2018/02/09/docker-without-sudo/</link>
+      <pubDate>Sun, 09 Feb 2025 10:00:00 +0000</pubDate>
+      <guid>https://richard-mf.github.io/aispace.github.io/2018/02/09/docker-without-sudo/</guid>
+      <description>&lt;p&gt;Add the docker group if it doesn&amp;rsquo;t already exist:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo groupadd docker&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add the connected user &amp;ldquo;$USER&amp;rdquo; to the docker group. Change the user name to match your preferred user if you do not want to use your current user:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo gpasswd -a &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;$USER&lt;/span&gt; docker&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Either do a newgrp docker or log out/in to activate the changes to groups.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
