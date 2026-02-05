@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Searches on Richard Fang Blog</title>
-    <link>https://richard-mf.github.io/aispace.github.io/search/</link>
+    <link>https://richard-mf.github.io/search/</link>
     <description>Recent content in Searches on Richard Fang Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://richard-mf.github.io/aispace.github.io/search/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://richard-mf.github.io/search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://richard-mf.github.io/aispace.github.io/search/placeholder/</link>
+      <link>https://richard-mf.github.io/search/placeholder/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://richard-mf.github.io/aispace.github.io/search/placeholder/</guid>
+      <guid>https://richard-mf.github.io/search/placeholder/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,38 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Richard Fang Blog</title>
-    <link>https://richard-mf.github.io/aispace.github.io/post/</link>
+    <link>https://richard-mf.github.io/post/</link>
     <description>Recent content in Posts on Richard Fang Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://richard-mf.github.io/aispace.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://richard-mf.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>基于HuggingFace的开发栈</title>
-      <link>https://richard-mf.github.io/aispace.github.io/post/huggingface_ops/</link>
+      <link>https://richard-mf.github.io/post/huggingface_ops/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://richard-mf.github.io/aispace.github.io/post/huggingface_ops/</guid>
+      <guid>https://richard-mf.github.io/post/huggingface_ops/</guid>
       <description>&lt;h2 id=&#34;trl-模型微调&#34;&gt;trl 模型微调&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/trl&#34;&gt;GitHub - huggingface/trl: Train transformer language models with reinforcement learning.&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://huggingface.co/docs/trl/main/en/clis&#34;&gt;Command Line Interfaces (CLIs)&lt;/a&gt;&#xA;You can use the TRL Command Line Interface (CLI) to quickly get started with Supervised Fine-tuning (SFT) and Direct Preference Optimization (DPO), or vibe check your model with the chat CLI:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;SFT:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;trl sft --model_name_or_path Qwen/Qwen2.5-0.5B &lt;span style=&#34;color:#f1fa8c&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&lt;/span&gt;    --dataset_name trl-lib/Capybara &lt;span style=&#34;color:#f1fa8c&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&lt;/span&gt;    --output_dir Qwen2.5-0.5B-SFT&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;DPO:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;trl dpo --model_name_or_path Qwen/Qwen2.5-0.5B-Instruct &lt;span style=&#34;color:#f1fa8c&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&lt;/span&gt;    --dataset_name argilla/Capybara-Preferences &lt;span style=&#34;color:#f1fa8c&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&lt;/span&gt;    --output_dir Qwen2.5-0.5B-DPO &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Chat:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>如何配置docker使用HTTP代理</title>
-      <link>https://richard-mf.github.io/aispace.github.io/2018/03/13/use-docker-behind-http-proxy/</link>
+      <title>使用HTTP代理</title>
+      <link>https://richard-mf.github.io/post/test/</link>
       <pubDate>Thu, 13 Mar 2025 18:00:00 +0000</pubDate>
-      <guid>https://richard-mf.github.io/aispace.github.io/2018/03/13/use-docker-behind-http-proxy/</guid>
+      <guid>https://richard-mf.github.io/post/test/</guid>
+      <description>&lt;h2 id=&#34;ubuntu&#34;&gt;Ubuntu&lt;/h2&gt;&#xA;&lt;h3 id=&#34;设置docker使用http-proxy&#34;&gt;设置docker使用http proxy&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo /etc/default/docker&#xA;&#xA;export http_proxy=&amp;#34;http://127.0.0.1:3128/&amp;#34;&#xA;export https_proxy=&amp;#34;http://127.0.0.1:3128/&amp;#34;&#xA;export HTTP_PROXY=&amp;#34;http://127.0.0.1:3128/&amp;#34;&#xA;export HTTPS_PROXY=&amp;#34;http://127.0.0.1:3128/&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>如何配置docker使用HTTP代理</title>
+      <link>https://richard-mf.github.io/2018/03/13/use-docker-behind-http-proxy/</link>
+      <pubDate>Thu, 13 Mar 2025 18:00:00 +0000</pubDate>
+      <guid>https://richard-mf.github.io/2018/03/13/use-docker-behind-http-proxy/</guid>
       <description>&lt;h2 id=&#34;ubuntu&#34;&gt;Ubuntu&lt;/h2&gt;&#xA;&lt;h3 id=&#34;设置docker使用http-proxy&#34;&gt;设置docker使用http proxy&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo /etc/default/docker&#xA;&#xA;export http_proxy=&amp;#34;http://127.0.0.1:3128/&amp;#34;&#xA;export https_proxy=&amp;#34;http://127.0.0.1:3128/&amp;#34;&#xA;export HTTP_PROXY=&amp;#34;http://127.0.0.1:3128/&amp;#34;&#xA;export HTTPS_PROXY=&amp;#34;http://127.0.0.1:3128/&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Vim Tips</title>
-      <link>https://richard-mf.github.io/aispace.github.io/2018/02/09/vim-tips/</link>
+      <link>https://richard-mf.github.io/2018/02/09/vim-tips/</link>
       <pubDate>Sun, 09 Feb 2025 11:00:00 +0000</pubDate>
-      <guid>https://richard-mf.github.io/aispace.github.io/2018/02/09/vim-tips/</guid>
+      <guid>https://richard-mf.github.io/2018/02/09/vim-tips/</guid>
       <description>&lt;h2 id=&#34;vim-graphical-cheat-sheet&#34;&gt;vim graphical cheat sheet&lt;/h2&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;//img/2018-02-09-vim-tips/vi-vim-cheat-sheet.svg&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>如何使用非root用户执行docker命令</title>
-      <link>https://richard-mf.github.io/aispace.github.io/2018/02/09/docker-without-sudo/</link>
+      <link>https://richard-mf.github.io/2018/02/09/docker-without-sudo/</link>
       <pubDate>Sun, 09 Feb 2025 10:00:00 +0000</pubDate>
-      <guid>https://richard-mf.github.io/aispace.github.io/2018/02/09/docker-without-sudo/</guid>
+      <guid>https://richard-mf.github.io/2018/02/09/docker-without-sudo/</guid>
       <description>&lt;p&gt;Add the docker group if it doesn&amp;rsquo;t already exist:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo groupadd docker&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add the connected user &amp;ldquo;$USER&amp;rdquo; to the docker group. Change the user name to match your preferred user if you do not want to use your current user:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo gpasswd -a &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;$USER&lt;/span&gt; docker&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Either do a newgrp docker or log out/in to activate the changes to groups.&lt;/p&gt;</description>
     </item>
   </channel>

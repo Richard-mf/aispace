@@ -2,59 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://richard-mf.github.io/aispace.github.io/categories/ai/</loc>
+    <loc>https://richard-mf.github.io/categories/ai/</loc>
     <lastmod>2025-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/tags/ai/</loc>
+    <loc>https://richard-mf.github.io/tags/ai/</loc>
     <lastmod>2025-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/categories/</loc>
+    <loc>https://richard-mf.github.io/categories/</loc>
     <lastmod>2025-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/tags/huggingface/</loc>
+    <loc>https://richard-mf.github.io/tags/huggingface/</loc>
     <lastmod>2025-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/post/</loc>
+    <loc>https://richard-mf.github.io/post/</loc>
     <lastmod>2025-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/</loc>
+    <loc>https://richard-mf.github.io/</loc>
     <lastmod>2025-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/tags/</loc>
+    <loc>https://richard-mf.github.io/tags/</loc>
     <lastmod>2025-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/post/huggingface_ops/</loc>
+    <loc>https://richard-mf.github.io/post/huggingface_ops/</loc>
     <lastmod>2025-11-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/tags/docker/</loc>
+    <loc>https://richard-mf.github.io/tags/docker/</loc>
     <lastmod>2025-03-13T18:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/categories/tips/</loc>
+    <loc>https://richard-mf.github.io/categories/tips/</loc>
     <lastmod>2025-03-13T18:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/tags/tips/</loc>
+    <loc>https://richard-mf.github.io/tags/tips/</loc>
     <lastmod>2025-03-13T18:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/2018/03/13/use-docker-behind-http-proxy/</loc>
+    <loc>https://richard-mf.github.io/post/test/</loc>
     <lastmod>2025-03-13T18:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/tags/vim/</loc>
+    <loc>https://richard-mf.github.io/2018/03/13/use-docker-behind-http-proxy/</loc>
+    <lastmod>2025-03-13T18:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://richard-mf.github.io/tags/vim/</loc>
     <lastmod>2025-02-09T11:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/2018/02/09/vim-tips/</loc>
+    <loc>https://richard-mf.github.io/2018/02/09/vim-tips/</loc>
     <lastmod>2025-02-09T11:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/2018/02/09/docker-without-sudo/</loc>
+    <loc>https://richard-mf.github.io/2018/02/09/docker-without-sudo/</loc>
     <lastmod>2025-02-09T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/about/</loc>
+    <loc>https://richard-mf.github.io/about/</loc>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/notes/</loc>
+    <loc>https://richard-mf.github.io/notes/</loc>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/search/placeholder/</loc>
+    <loc>https://richard-mf.github.io/search/placeholder/</loc>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/archive/</loc>
+    <loc>https://richard-mf.github.io/archive/</loc>
   </url><url>
-    <loc>https://richard-mf.github.io/aispace.github.io/search/</loc>
+    <loc>https://richard-mf.github.io/search/</loc>
   </url>
 </urlset>

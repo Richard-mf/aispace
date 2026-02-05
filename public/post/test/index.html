@@ -10,23 +10,23 @@
     <meta property="og:type" content="article">
 
     
-    <meta property="og:image" content="https://richard-mf.github.io//img/home-bg-jeep.jpg">
-    <meta property="twitter:image" content="https://richard-mf.github.io//img/home-bg-jeep.jpg" />
+    <meta property="og:image" content="https://richard-mf.github.io//img/tag-bg.jpg">
+    <meta property="twitter:image" content="https://richard-mf.github.io//img/tag-bg.jpg" />
     
 
     
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
+    <meta name="title" content="使用HTTP代理" />
+    <meta property="og:title" content="使用HTTP代理" />
+    <meta property="twitter:title" content="使用HTTP代理" />
     
 
     
-    <meta name="description" content="程序员, 生活探险家, AI, 机器学习 | 这里是 Richard Fang 的博客，与你一起发现更大的世界。">
-    <meta property="og:description" content="程序员, 生活探险家, AI, 机器学习 | 这里是 Richard Fang 的博客，与你一起发现更大的世界。" />
-    <meta property="twitter:description" content="程序员, 生活探险家, AI, 机器学习 | 这里是 Richard Fang 的博客，与你一起发现更大的世界。" />
+    <meta name="description" content="如何配置docker使用HTTP代理">
+    <meta property="og:description" content="如何配置docker使用HTTP代理" />
+    <meta property="twitter:description" content="如何配置docker使用HTTP代理" />
     
 
-    <meta property="og:url" content="https://richard-mf.github.io/404.html" />
+    <meta property="og:url" content="https://richard-mf.github.io/post/test/" />
 
     
     <meta property="twitter:card" content="summary" />
@@ -36,9 +36,9 @@
     <meta name="keyword"  content="Richard Fang blog, Richard Fang, 博客, 个人网站, AI, NLP, ML">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>404 Page not found | Richard Fang&#39;s Blog</title>
+    <title>使用HTTP代理 | Richard Fang&#39;s Blog</title>
 
-    <link rel="canonical" href="/404.html">
+    <link rel="canonical" href="/post/test/">
 
     
 
@@ -160,14 +160,45 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/home-bg-jeep.jpg')">
+
+<style type="text/css">
+    header.intro-header {
+        background-image: url('/img/tag-bg.jpg')
+    }
+</style>
+
+<header class="intro-header" >
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>Richard Fang Blog </h1>
-                    
-		    <span class="subheading">路在脚下，心向远方</span>
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <div class="tags">
+                        
+                        <a class="tag" href="/tags/tips" title="Tips">
+                            Tips
+                        </a>
+                        
+                        <a class="tag" href="/tags/docker" title="Docker">
+                            Docker
+                        </a>
+                        
+                    </div>
+                    <h1>使用HTTP代理</h1>
+                    <h2 class="subheading"></h2>
+                    <span class="meta">
+                        
+                            Posted by 
+                            
+                                Richard Fang
+                             
+                            on 
+                            Thursday, March 13, 2025
+                            
+                            
+                            
+                            
+                    </span>
                 </div>
             </div>
         </div>
@@ -177,22 +208,135 @@
 
 
 
-<header class="intro-header" style="background-image: url('/img/404-bg.jpg')">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-				<div class="site-heading" id="tag-heading">
-					<h1>404</h1>
-					<span class="subheading">你来到了没有知识的荒原 :(</span>
-				</div>
-			</div>
-		</div>
-	</div>
-</header>
+<article>
+    <div class="container">
+        <div class="row">
 
-<script>
-	document.body.classList.add('page-fullscreen');
-</script>
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
+
+                
+                <h2 id="ubuntu">Ubuntu</h2>
+<h3 id="设置docker使用http-proxy">设置docker使用http proxy</h3>
+<pre tabindex="0"><code>sudo /etc/default/docker
+
+export http_proxy=&#34;http://127.0.0.1:3128/&#34;
+export https_proxy=&#34;http://127.0.0.1:3128/&#34;
+export HTTP_PROXY=&#34;http://127.0.0.1:3128/&#34;
+export HTTPS_PROXY=&#34;http://127.0.0.1:3128/&#34;
+</code></pre><h3 id="加载配置并重启docker">加载配置并重启docker</h3>
+<pre tabindex="0"><code>sudo service docker restart
+</code></pre><h2 id="centos">CentOS</h2>
+<h3 id="设置docker使用http-proxy-1">设置docker使用http proxy</h3>
+<pre tabindex="0"><code>sudo mkdir -p /etc/systemd/system/docker.service.d
+
+echo &#39;
+[Service]
+Environment=&#34;HTTP_PROXY=http://proxy.foo.bar.com:80/&#34;
+&#39; | sudo tee /etc/systemd/system/docker.service.d/http-proxy.conf
+</code></pre><h3 id="加载配置并重启docker-1">加载配置并重启docker</h3>
+<pre tabindex="0"><code>sudo systemctl daemon-reload
+sudo systemctl restart docker
+</code></pre>
+
+                
+
+                
+                <hr>
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2018/03/13/use-docker-behind-http-proxy/" data-toggle="tooltip" data-placement="top" title="如何配置docker使用HTTP代理">&larr;
+                            Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/post/huggingface_ops/" data-toggle="tooltip" data-placement="top" title="基于HuggingFace的开发栈">Next
+                            Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+                
+
+                
+
+
+
+
+            </div>
+
+            
+            
+            <div class="
+                col-lg-2 col-lg-offset-0
+                visible-lg-block
+                sidebar-container
+                catalog-container">
+                <div class="side-catalog">
+                    <hr class="hidden-sm hidden-xs">
+                    <h5>
+                        <a class="catalog-toggle" href="#">CATALOG</a>
+                    </h5>
+                    <ul class="catalog-body"></ul>
+                </div>
+            </div>
+            
+
+            
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/docker" title="docker">
+                            docker
+                        </a>
+                        
+                        
+                        
+                        
+                        
+                        <a href="/tags/tips" title="tips">
+                            tips
+                        </a>
+                        
+                        
+                        
+                        
+                    </div>
+                </section>
+                
+
+                
+                
+                <section>
+                    <hr>
+                    <h5>FRIENDS</h5>
+                    <ul class="list-inline">
+                        
+                    </ul>
+                </section>
+                
+            </div>
+        </div>
+    </div>
+</article>
+
 
 
 

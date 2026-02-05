@@ -1,4 +1,4 @@
-baseurl = "https://richard-mf.github.io/aispace.github.io/"
+baseurl = "https://richard-mf.github.io"
 title = "Richard Fang Blog"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
