@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Richard Fang Blog</title>
-    <link>https://richard-mf.github.io/tags/</link>
+    <link>https://richard-mf.github.io/aispace/tags/</link>
     <description>Recent content in Tags on Richard Fang Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://richard-mf.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://richard-mf.github.io/aispace/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>https://richard-mf.github.io/tags/ai/</link>
+      <link>https://richard-mf.github.io/aispace/tags/ai/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://richard-mf.github.io/tags/ai/</guid>
+      <guid>https://richard-mf.github.io/aispace/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>HuggingFace</title>
-      <link>https://richard-mf.github.io/tags/huggingface/</link>
+      <link>https://richard-mf.github.io/aispace/tags/huggingface/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://richard-mf.github.io/tags/huggingface/</guid>
+      <guid>https://richard-mf.github.io/aispace/tags/huggingface/</guid>
       <description></description>
     </item>
     <item>
       <title>Docker</title>
-      <link>https://richard-mf.github.io/tags/docker/</link>
+      <link>https://richard-mf.github.io/aispace/tags/docker/</link>
       <pubDate>Thu, 13 Mar 2025 18:00:00 +0000</pubDate>
-      <guid>https://richard-mf.github.io/tags/docker/</guid>
+      <guid>https://richard-mf.github.io/aispace/tags/docker/</guid>
       <description></description>
     </item>
     <item>
       <title>Tips</title>
-      <link>https://richard-mf.github.io/tags/tips/</link>
+      <link>https://richard-mf.github.io/aispace/tags/tips/</link>
       <pubDate>Thu, 13 Mar 2025 18:00:00 +0000</pubDate>
-      <guid>https://richard-mf.github.io/tags/tips/</guid>
+      <guid>https://richard-mf.github.io/aispace/tags/tips/</guid>
       <description></description>
     </item>
     <item>
       <title>Vim</title>
-      <link>https://richard-mf.github.io/tags/vim/</link>
+      <link>https://richard-mf.github.io/aispace/tags/vim/</link>
       <pubDate>Sun, 09 Feb 2025 11:00:00 +0000</pubDate>
-      <guid>https://richard-mf.github.io/tags/vim/</guid>
+      <guid>https://richard-mf.github.io/aispace/tags/vim/</guid>
       <description></description>
     </item>
   </channel>

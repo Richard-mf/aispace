@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HuggingFace on Richard Fang Blog</title>
-    <link>https://richard-mf.github.io/tags/huggingface/</link>
+    <link>https://richard-mf.github.io/aispace/tags/huggingface/</link>
     <description>Recent content in HuggingFace on Richard Fang Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://richard-mf.github.io/tags/huggingface/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://richard-mf.github.io/aispace/tags/huggingface/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>基于HuggingFace的开发栈</title>
-      <link>https://richard-mf.github.io/post/huggingface_ops/</link>
+      <link>https://richard-mf.github.io/aispace/post/huggingface_ops/</link>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://richard-mf.github.io/post/huggingface_ops/</guid>
+      <guid>https://richard-mf.github.io/aispace/post/huggingface_ops/</guid>
       <description>&lt;h2 id=&#34;trl-模型微调&#34;&gt;trl 模型微调&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/huggingface/trl&#34;&gt;GitHub - huggingface/trl: Train transformer language models with reinforcement learning.&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://huggingface.co/docs/trl/main/en/clis&#34;&gt;Command Line Interfaces (CLIs)&lt;/a&gt;&#xA;You can use the TRL Command Line Interface (CLI) to quickly get started with Supervised Fine-tuning (SFT) and Direct Preference Optimization (DPO), or vibe check your model with the chat CLI:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;SFT:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;trl sft --model_name_or_path Qwen/Qwen2.5-0.5B &lt;span style=&#34;color:#f1fa8c&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&lt;/span&gt;    --dataset_name trl-lib/Capybara &lt;span style=&#34;color:#f1fa8c&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&lt;/span&gt;    --output_dir Qwen2.5-0.5B-SFT&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;DPO:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-shell&#34; data-lang=&#34;shell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;trl dpo --model_name_or_path Qwen/Qwen2.5-0.5B-Instruct &lt;span style=&#34;color:#f1fa8c&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&lt;/span&gt;    --dataset_name argilla/Capybara-Preferences &lt;span style=&#34;color:#f1fa8c&#34;&gt;\&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;&lt;/span&gt;    --output_dir Qwen2.5-0.5B-DPO &#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Chat:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
